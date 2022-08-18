@@ -5,11 +5,15 @@
     "default": true,
     "sortNum": 10000,
     "created": "2022-08-18T21:52:17.617Z",
-    "modified": "2022-08-18T21:52:40.153Z",
+    "modified": "2022-08-18T22:33:21.050Z",
     "data": [
       {
-        "name": "API",
+        "name": "API1",
         "value": "http://localhost:3000"
+      },
+      {
+        "name": "API",
+        "value": "https://vercel-nest-test.vercel.app"
       }
     ]
   }
