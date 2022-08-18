@@ -19,5 +19,10 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
   }
 }
