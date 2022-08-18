@@ -1,5 +1,0 @@
-{
-    "jest.autoRun": {},
-    "jest.showCoverageOnLoad": false,
-    "jest.jestCommandLine": "yarn test"
-}
