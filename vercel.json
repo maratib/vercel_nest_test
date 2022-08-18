@@ -8,8 +8,7 @@
         "DB_NAME": "BsUJwiOeZK",
         "DB_USER": "BsUJwiOeZK",
         "DB_PASSWORD": "BUJsBYknAb",
-        "JWT_SECRET": "fkas890f789af789asd7f89as7f89asdf798f7",
-        "JWT_EXPIRES_IN": "10days"
+        "JWT_SECRET": "fkas890f789af789asd7f89as7f89asdf798f7"
     },
     "builds": [
         {
