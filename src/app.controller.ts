@@ -1,6 +1,7 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
 // import { PostDto, SETTINGS } from './utils/dto';
 import { AppService } from './app.service';
+import { PostDto, SETTINGS } from './utils/dto';
 
 @Controller()
 export class AppController {
@@ -20,8 +21,8 @@ export class AppController {
   //   return "Hello " + dto.name;
   // }
 
-  // @Post()
-  // create(@Body(SETTINGS.VALIDATION_PIPE) dto: PostDto): string {
-  //   return "Hello " + dto.name;
-  // }
+  @Post()
+  create(@Body(SETTINGS.VALIDATION_PIPE) dto: PostDto): string {
+    return "Hello " + dto.name;
+  }
 }
